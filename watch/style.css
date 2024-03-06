@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    margin: 0px 400px auto;
+    align-items: center;
+    min-height: 100vh;
+    background: #222;
+}
+.datetime{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    width:auto;
+    margin-left: 1rem;
+    
+    color: #ccc 
+ 
+}
+
+
+.clock{
+    width: auto;
+}
+span .flip-clock-dot{
+    background: #ccc;
+}
+.flip-clock-meridium a {
+    color: #ccc !important;
+}
